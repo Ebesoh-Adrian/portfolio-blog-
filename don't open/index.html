@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RapidCV - Karen's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="design-root">
+    <header class="site-header">
+      <div class="logo-container">
+        <svg viewBox="0 0 48 48" class="logo-icon" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"/></svg>
+        <h2 class="logo-text">RapidCV</h2>
+      </div>
+      <nav class="navigation">
+        <a href="#">How it works</a>
+        <a href="#">Examples</a>
+        <a href="#">Pricing</a>
+        <a href="#">FAQ</a>
+        <button class="btn-primary">Sign in</button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-image" style="background-image: url('assets/images/hero.png');"></div>
+        <div class="hero-text">
+          <h1>Hi, I'm Adrian</h1>
+          <p>I'm a product designer with a passion for creating delightful and accessible experiences. Currently, I'm building the future of work at Figma.</p>
+          <button class="btn-primary">View my resume</button>
+        </div>
+      </section>
+
+      <!-- Work Section -->
+      <section class="recent-work">
+        <h2>Recent work</h2>
+        <div class="grid-gallery">
+          <!-- Repeat Work Card -->
+          <div class="work-card">
+            <div class="work-image" style="background-image: url('assets/images/figma.png');"></div>
+            <p class="work-title">Figma</p>
+            <p class="work-role">Product Designer (2023–Now)</p>
+          </div>
+          <!-- More cards follow... -->
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <div class="avatar" style="background-image: url('assets/images/avatar1.png');"></div>
+            <blockquote>"Karen is an incredibly talented designer with a keen eye for detail."</blockquote>
+            <p class="author">Dennis Mueller</p>
+          </div>
+          <!-- More testimonial cards... -->
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="contact">
+        <h2>Contact me</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+          <textarea placeholder="Your message" required></textarea>
+          <button type="submit" class="btn-primary">Send message</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
