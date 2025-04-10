@@ -2,6 +2,12 @@
 
 # Design By Coders Hub Managenent
 # Portfolio Starter Template
+# File Structure
+portfolio-starter/
+│
+├── index.html
+├── style.css
+└── README.md
 
 This is a basic portfolio starter template using only HTML and CSS. Participants can customize it by:
 
